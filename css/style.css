@@ -1,0 +1,162 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+html,body{
+	height: 100%;
+	background-image:linear-gradient(to top ,#000203 ,#141515, #434748,#686969);
+
+}
+
+.header_1 h3{
+	color: white;
+	position: absolute;
+	top:320px;
+	left:42%;
+	transition: 2s;
+	
+	
+}
+.header_1 h2{
+	color: white;
+	position: absolute;
+	top:260px;
+	left:44%;
+	
+	
+}
+.header_1 h3:hover{
+	color:red;
+	transition: 2s;
+}
+
+.header_1 img{
+	
+	position: absolute;
+	top:135px;
+	left:47%;
+	height: 100px;
+	width: 10;
+	border-radius: 20px;
+	box-shadow: 18px -10px 7px 2px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 18px -10px 7px 2px rgba(0,0,0,0.5);
+	-moz-box-shadow: 18px -10px 7px 2px rgba(0,0,0,0.5);
+		
+
+}
+
+.front{
+	opacity: 60%;
+	height:400px;
+	width: 100%;
+	background-image: url(https://cdn.pixabay.com/photo/2021/09/12/07/58/banner-6617550_1280.png);
+	background-size: 100% 100%;
+	transform: translateY(100px);
+	background-repeat:no-repeat ;
+	transition: 2s;
+	
+	}
+	.front:hover{
+		opacity: 100%;
+		transition: 1s;
+	}
+
+section img{
+	position: absolute;
+	top: 590px;
+	transition: 1s;
+	height: 50px;
+	width: 70px;
+	margin-left:calc(48% - 12px);
+	background-color: rgba(145, 145, 145,1);
+	border-radius: 50%;
+	
+	
+}
+section img:hover{
+	transform:translateY(10px);
+	
+}
+
+.title{
+	width: 100%;
+	text-align: center;
+	margin-top: 280px;
+}
+
+
+.title h3{
+	margin:10px 0;
+	font-size: 45px;
+	font-family: sans-serif;
+	color: white;
+	transition: 2s;
+	
+	
+}
+.title h3:hover{
+	color:red;
+	transition: 1s;
+}
+
+.header{
+		
+		width: 100%;
+		display: inline-block;
+		margin-bottom: 50px;
+ 
+			
+}
+
+.header section {
+		
+		display: inline-block;
+		background-image: url(https://www.iwtraining.com.br/imagens/capa-curso-de-criacao-de-sites-com-javascript-frontend-iwtraining.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		border-radius: 10px;
+		cursor: pointer;
+		margin: 12px 4px;
+		height: 130px;
+		width: 20%;
+		text-align: center;
+		transition: 1.2s;
+		
+}
+
+
+ .header section:hover{	
+		filter:brightness(70%);
+		transform: translatey(35px);
+		margin-top: 27px;
+		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHJqmg4mwy6EOoGSmQb2R4J1exVBKa1-h4MQ&usqp=CAU);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		}
+
+.header section span{
+	color: red;
+	font-weight: bold;
+	
+
+}
+
+@media only screen and (max-width:500px) {
+	.header_1 h2{
+		 position: absolute;
+		 left:160px;
+}
+}
+@media only screen and (max-width:500px) {
+	.header_1 h3{
+		 position: absolute;
+		 left:140px;
+}}
+@media only screen and (max-width:500px) {
+	.header_1 img{
+		 position: absolute;
+		 left:200px;
+}}
